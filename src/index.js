@@ -32,7 +32,7 @@ const server = mc.createServer({
   'online-mode': false,   // optional
   host: '0.0.0.0',       // optional
   port: 25565,           // optional
-  version: '1.21.4'
+  version: '1.21.4' // TODO: the official readme uses a different version here maybe that is the issue
 })
 const mcData = require('minecraft-data')(server.version)
 
