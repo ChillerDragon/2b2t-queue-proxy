@@ -73,7 +73,7 @@ const srv = mc.createServer({
   'online-mode': false,
   port: 25566,
   keepAlive: false,
-  version
+  version: '1.21.4'
 })
 srv.on('login', function (client) {
   const addr = client.socket.remoteAddress
