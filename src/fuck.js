@@ -71,7 +71,7 @@ if (host.indexOf(':') !== -1) {
 
 const srv = mc.createServer({
   'online-mode': false,
-  port: 25566,
+  port: 25565,
   keepAlive: false,
   version: '1.21.4'
 })
