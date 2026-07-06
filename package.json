@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "dotenv": "^17.4.2",
+    "flying-squid": "^1.12.0",
     "mineflayer": "^4.37.1",
     "prismarine-proxy": "^1.2.0"
   }
